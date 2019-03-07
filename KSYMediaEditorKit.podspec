@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.subspec 'libKSYMediaEditor'  do |sub|
     sub.source_files = ['prebuilt/include/**/*.h']
     sub.vendored_library = 'prebuilt/libs/*.a'
-    sub.dependency 'GPUImage'
+    #sub.dependency 'GPUImage'
   end
   
   s.subspec 'KSYGPUResource' do |sub|
