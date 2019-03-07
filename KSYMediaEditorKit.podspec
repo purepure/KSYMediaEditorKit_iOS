@@ -42,6 +42,8 @@ Pod::Spec.new do |s|
     sub.source_files = ['prebuilt/include/**/*.h']
     sub.vendored_library = 'prebuilt/libs/*.a'
     #sub.dependency 'GPUImage'
+    sub.dependency 'libksygpulive/KSYGPUResource'
+    sub.dependency 'libksygpulive/libksygpulive'
   end
   
   s.subspec 'KSYGPUResource' do |sub|
